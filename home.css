@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    position: relative;
+    height: 100%;
+  }
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.swiper {
+    width: 1000px;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    height: 100%;
+ 
+    line-height: 300px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .swiper-slide img{
+    background-color: aqua;  }
+
+  
+  .c{
+      border: solid bglue;
+      height: 100%;
+  }
+  footer{
+    background-color: beige;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2px;
+  }
+  footer h1{
+    color: black;
+  }
+  .word{
+    border: solid ggreen;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .word .wo{
+    border: solid retd;
+    height: 90%;
+    width: 50%;
+    background-image: url(b/open2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 100px;
+    margin: 8px;
+  }
+  .word .rd{
+    border: solid whtite;
+    height: 100%;
+    width: 50%;
+    margin: 8px;
+  }
+  .word .rd p{
+    color: white;
+    font-size: 23px;
+    font-weight: 300px;
+    margin: 30px;
+    margin-top: 100px;
+    padding: 70px;
+  }
+  .con{
+    border: solid grTeen;
+    height: 900px;
+    background-image: url(b/contact3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+  }
+
+ 
+.con form{
+    background: black;
+    width: 670px;
+    height: 480px;
+    border:solid 8px rgb(15, 15, 15);
+    justify-content: center;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+   flex-wrap: wrap;
+}
+
+.con form h1{
+    color: beige;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.con form input{
+    width: 290px;
+    color: beige;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid beige;
+}
+.con form input::placeholder{
+    color: beige;
+}
+.con form #lastName,
+.con form phone{
+    margin-left: 20px;
+}
+.con form h4{
+    color: beige;
+    font-weight: 300;
+    width: 600px;
+ 
+    margin-top: 20px;
+}
+.con form textarea{
+    background: none;
+    border: none;
+    border-bottom:2px solid beige;
+    color: beige;
+    font-size: 15px;
+    font-weight: 200;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px
+    
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+ .cont form #button{
+    border: none;
+    background: red;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+ }
+ .cont form #button:hover{
+    opacity: 0.7;
+ }
+ .ser{
+    border: solid rred;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+ }
+ .ser .s{
+    border: solid rrgb(4, 4, 4);
+    justify-content: center;
+    width: 33%;
+    height: 70vh;
+    transition: transform 0.3s;
+ }
+ .ser .s:hover{
+  transform: translate(-10px);
+ }
+ .ser .e{
+    border: solid grerren;
+    justify-content: center;
+    width: 33%;
+ }
+ .ser .r{
+    border: solid blrue;
+    justify-content: center;
+    width: 33%;
+ }
+ .ser .sa{
+    height: 70%;
+    width: 60%;
+    border: solid rred;
+    align-items: center;
+    margin: 80px;
+    border-radius: 20px;
+    background: whitesmoke;
+ }
+ .ser .sa img{
+    height: 70%;
+    width: 100%;
+    border-radius: 20PX;
+ }
+ h1{
+    margin-top:15px ;
+    font-size: 30px;
+    padding: 10px;
+    font-family:'sans-serif';
+ }
+ .ser .sa h1{
+    color: black;
+    font-size: 50px;
+    font-family:'sans-serif';
+ }
+ span{
+  color: brown;
+ }
